@@ -27,7 +27,9 @@ label start:
     e "I'm so broke i need to eat grass. . ."
 
     e "I hope someone, anyone would give me food to eat, and shelter to live in. . ."
-    
+
+    e "But then i found someone, that might help me!"
+
 
     # This ends the game.
 
