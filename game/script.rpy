@@ -26,11 +26,9 @@ label start:
 
     # These display lines of dialogue.
 
-    e "I'm so broke i need to eat grass. . ."
+    k "*sighs* why do i need to go to school"
 
-    e "I hope someone, anyone would give me food to eat, and shelter to live in. . ."
-
-    e "But then i found someone, that might help me!"
+    k "Everyday is so monotone, even the skies are monochrome, i wish i can just dissapear."
 
 
     # This ends the game.
