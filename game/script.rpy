@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define k = Character("Kazuo")
+
 define e = Character("Eilene")
 
 
