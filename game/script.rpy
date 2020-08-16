@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Eilene")
 
 
 # The game starts here.
@@ -24,9 +24,10 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "I'm so broke i need to eat grass. . ."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e "I hope someone, anyone would give me food to eat, and shelter to live in. . ."
+    
 
     # This ends the game.
 
