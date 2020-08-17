@@ -7,10 +7,15 @@ define k = Character("Kazuo")
 
 define e = Character("Eilene")
 
+define c = Character("Carmen")
+
 
 
 # The game starts here.
+
 label start:
+
+    jump commonroute
 
 label commonroute:
 
@@ -28,9 +33,9 @@ label commonroute:
 
     # These display lines of dialogue.
 
-    k "*sighs* why do i need to go to school"
+    k "*sighs* why do I need to go to school"
 
-    k "Everyday is so monotone, even the skies are monochrome, i wish i can just dissapear."
+    k "Everyday is so monotone, even the skies are monochrome, I wish I can just disappear."
 
 
     # This ends the game.
