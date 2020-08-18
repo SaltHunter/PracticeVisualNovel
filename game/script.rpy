@@ -36,22 +36,24 @@ label commonroute:
 
     # These display lines of dialogue.
 
-    k "*sighs* why do I need to go to school"
+    k "*sighs* Why do I need to go to school..."
 
-    k "Everyday is so monotone, even the skies are monochrome, I wish I can just disappear."
+    k "Everyday is so monotone, even the skies are monochrome..."
+    
+    k "I wish I can just disappear."
 
-    k "But alas, as my parents have paid my school fees, i have to go to school, do the daily routine"
+    k "But alas, as my parents have paid my school fees, I have to go to school, do the daily routine"
 
     scene bg hill
     with fade
 
     show eileen happy
 
-    "As i look up the hill, i feel that its so high, and so hard to approach, and then"
+    "As I look up the hill, I feel that it's so high, and so hard to approach, and then,"
 
     que "*Achoo*"
 
-    k "hm?"
+    k "Hm?"
 
     que "Why are you here? aren't you supposed to go to school?"
 
