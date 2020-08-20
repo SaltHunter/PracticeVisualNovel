@@ -32,7 +32,6 @@ label commonroute:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
 
     # These display lines of dialogue.
 
@@ -46,8 +45,8 @@ label commonroute:
 
     scene bg hill
     with fade
+    
 
-    show eileen happy
 
     "As I look up the hill, I feel that it's so high, and so hard to approach, and then,"
 
@@ -55,9 +54,52 @@ label commonroute:
 
     k "Hm?"
 
+    
+    show carmen frown:
+        xalign 0.5
+        yalign -0.05
+
     que "Why are you here? aren't you supposed to go to school?"
 
     k "I'm going there, what about you?"
+
+   
+    show carmen frown blush:
+        xalign 0.5
+        yalign -0.05
+
+    que "U...Um...I, just woke up late! that's all! why are you staring at me like that?! Pervert!"
+
+    "This, is the type of female i do'nt like, the school's beauty, A self-proclaimed 'Ice queen', thinking that she is some princess atop a lofty throne"
+
+    "Who does she think she is? some kind of god? hmph! such self-centered and egoistic ideals are what sets off wars, crumble nations and..."
+
+    
+    show carmen shout:
+        xalign 0.5
+        yalign -0.05
+    
+    que "WHO ARE YOU CALLING SELF CENTRED?!"
+
+    "*WHAM! WHAM! WHAM!"
+
+    k "Shit, i let my inner monolog out again"
+
+    show carmen frown blush:
+        xalign 0.5
+        yalign -0.05
+
+    que "hmph! that ought to teach you next time we see each other."
+
+    que "hmph! i should get myyself to class, thanks for wasting my time!"
+
+    "*footstep sfx*"
+
+    hide carmen frown blush
+
+    k "Tch, How rude, she didn't even introduce herself, that's why i hate humanity."
+
+    k "This world is distorted, thus gundam and i will change the world."
 
     
 
