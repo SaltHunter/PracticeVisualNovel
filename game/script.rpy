@@ -47,7 +47,6 @@ label commonroute:
     with fade
     
 
-
     "As I look up the hill, I feel that it's so high, and so hard to approach, and then,"
 
     que "*Achoo*"
@@ -70,9 +69,9 @@ label commonroute:
 
     que "U...Um...I, just woke up late! that's all! why are you staring at me like that?! Pervert!"
 
-    "This, is the type of female i do'nt like, the school's beauty, A self-proclaimed 'Ice queen', thinking that she is some princess atop a lofty throne"
+    "This, is the type of female i don't like, the school's beauty, A self-proclaimed 'Ice queen', thinking that she is some princess atop a lofty throne"
 
-    "Who does she think she is? some kind of god? hmph! such self-centered and egoistic ideals are what sets off wars, crumble nations and..."
+    "Who does she think she is? some kind of god? Hmph! such self-centered and egoistic ideals are what sets off wars, crumble nations and..."
 
     
     show carmen shout:
@@ -81,25 +80,25 @@ label commonroute:
     
     que "WHO ARE YOU CALLING SELF CENTRED?!"
 
-    "*WHAM! WHAM! WHAM!"
+    "*WHAM!* *WHAM!* *WHAM!*"
 
-    k "Shit, i let my inner monolog out again"
+    k "Damn, I let my inner monologue out again..."
 
     show carmen frown blush:
         xalign 0.5
         yalign -0.05
 
-    que "hmph! that ought to teach you next time we see each other."
+    que "Hmph! That ought to teach you next time we see each other."
 
-    que "hmph! i should get myyself to class, thanks for wasting my time!"
+    que "Hmph! I should get myyself to class, thanks for wasting my time!"
 
     "*footstep sfx*"
 
     hide carmen frown blush
 
-    k "Tch, How rude, she didn't even introduce herself, that's why i hate humanity."
+    k "Tch, How rude, she didn't even introduce herself, that's why I hate humanity."
 
-    k "This world is distorted, thus gundam and i will change the world."
+    k "This world is distorted, thus gundam and I will change the world."
 
     
 
