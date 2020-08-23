@@ -100,9 +100,7 @@ label commonroute:
 
     k "This world is distorted, thus gundam and I will change the world."
 
-    k "just testing."
-
-    
+  
 
 
     # This ends the game.
