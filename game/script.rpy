@@ -126,6 +126,48 @@ label commonroute2:
 
     que "Hmph, what a deluding idiot."
 
+    scene bg classroom
+    with fade
+
+    k "Looks like I still came too school early today."
+    menu:
+
+        "Should I head to the cafeteria.":
+            
+         jump sunyi_scene1
+
+         label sunyi_scene1: 
+
+         k "I head towards the cafeteria, but on the way I pass by my school's library."
+
+         scene bg library
+         with fade
+
+         k "I notice a prim and proper girl sitting inside seemingly enamored by the book she is reading."
+
+         k "I look closer and notice her prim slender figure and short smooth jet black hair, as if the personification of a Yamato Nadeshiko."
+
+         k "The more I look the more I notice features that just seem to-"
+
+         k "Hm...? Is.. Is that!?"
+
+         k "STEEL BALL RUN!!!??"
+  
+         jump sunyiroute
+
+         label sunyiroute:
+
+             a "Hya!?"
+
+             show sunyi surprised blush
+             with fade
+
+             a "W-Who??"
+
+             k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
+
+             return    
+
     # This ends the game.
 
     return
