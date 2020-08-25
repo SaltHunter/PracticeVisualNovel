@@ -180,7 +180,7 @@ label commonroute2:
 
              a "Um, class is starting! Ex- Excuse me!"
 
-             K "Ah, she ran away"
+             k "Ah, she ran away"
 
              scene bg classroom
              with fade
