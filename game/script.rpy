@@ -516,7 +516,7 @@ label commonroute3:
 
     h "Damn that carmen, confiscating my Magic: The Gathering Deck, what does she have, Mystic eyes of perception EX?"
 
-    k "Nah, that's probably the name of an enemy stand."
+    k "Nah, that's probably the work of an enemy stand."
 
     c "Or maybe if you two idiots would stop bringing illegal items to the school i wouldnt confiscate them."
 
