@@ -180,6 +180,8 @@ label commonroute2:
 
              a "Um, class is starting! Ex- Excuse me!"
 
+             hide sunyi surprised blush
+
              k "Ah, she ran away"
 
              scene bg classroom
