@@ -19,6 +19,8 @@ define f = Character("Felise")
 
 define az = Character("Azrail?")
 
+define s = Character("Sunyi")
+
 
 
 # The game starts here.
@@ -151,8 +153,7 @@ label commonroute2:
     que "Yeah, whatever."
 
     que "Hmph, what a deluding idiot."
-
-<<<<<<< HEAD
+    
     show carmen frown blush:
         xalign 0.5
         yalign -0.05
@@ -171,6 +172,8 @@ label routecontinue:
     with fade
 
     que "Yo! Kazuo, late as always"
+
+    que "It's allready recess, where have you been?"
 
     k "ah, you again, what's your name. . ."
 
@@ -196,7 +199,7 @@ label routecontinue:
 
     "You reap what you sow i guess..."
 
-    h "Tch, Let's just go to the canteen, im getting hungry."
+    h "Tch, Let's just go to the cafeteria, im getting hungry."
 
     k "That resolves."
 
@@ -261,6 +264,10 @@ label Magic:
 
     k "I have created over a thousand blades"
 
+    que "Hooh, so you too are a wizard"
+
+    que "Very well then!"
+
     que "Reality be bent"
 
     k "Unknown to death, not known to life"
@@ -269,7 +276,11 @@ label Magic:
 
     k "Yet these hands will hold nothing."
 
-    que "Synapse Linkage, On!"
+    que "Synapse Linkage, 100% synchron!"
+
+    que "Linkage Code QX5ABCD"
+
+    que "Linkage Code Authorized"
 
     que "Reality break, engage!"
 
@@ -359,7 +370,6 @@ label Friend:
 
 label commonroute3:
     show bg battlefield1
-    with fade
     show felice happy
 
     que "Fallen Angel, Azrail Deus Ex The Fifth."
@@ -370,75 +380,119 @@ label commonroute3:
 
     az "Ho! so you're approaching me, instead of running away from me, the angel of death you're approraching me"
 
-    
+    k "Talk less ,fight more!"
 
+    "*CLANG!*"
 
+    "As 2 rulers clashed with her umbrella, she extends it, prooving to be somewhat of a  large lance"
 
+    k "What's your class, lancer?"
 
+    az "I have no obligation to tell you! Hyah!"
+
+    "After a series of blows, both of them were readying their ultimate attacks untill"
+
+    show bg hallway
+    with fade
+    hide felice happy
+    show hiroto happy
+
+    h "I think it's about time we went back to class, we have a math test you know"
+
+    k "Not now hiroto! i'm in battle with the great azrail, the angel of death!"
+
+    h "and i think you two are causing a scene"
+
+    hide hiroto happy
+
+    crowd "Major chuunibyou bro"
+
+    crowd "Eww cringe!"
+
+    crowd "Hey i've seen this guy before, he's the disgusting one from this morning!"
+
+    show felice blush
+
+    k "Tch! we shall continue our battle later!"
+
+    az "Fair, and by the way"
+
+    f "My human name is Felise, Felise Arrowheart from Class 3-A, so you know where to find me for our next duel"
+
+    k "Do remember i settle my scores"
+
+    show felice happy
+
+    f "I'm counting on it! and farewell!"
+
+    f "MUAHAHAHAHAHAHA!"
+
+    hide felice happy
+
+    h "Let's get to class, we have a math test to do."
+
+    k "Resolves."
 
     scene bg classroom
     with fade
 
-    k "Looks like I still came too school early today."
-    menu:
+    k "Man That math test was hard, Hiroto, i'm going to the canteen, need anything?"
 
-        "Should I head to the cafeteria.":
-            
-         jump sunyi_scene1
+    h "I'll get the usual"
 
-         label sunyi_scene1: 
+    k "Ocha and melonpan, gotcha, ill be back."
 
-         k "I head towards the cafeteria, but on the way I pass by my school's library."
+    scene bg hallway
+    with fade
 
-         scene bg library
-         with fade
+    k "Hmm, the library looks interesting, maybe i'll stop by it, i still have time to kill after all."
+   
 
-         k "I notice a prim and proper girl sitting inside seemingly enamored by the book she is reading."
+    scene bg library
+    with fade
 
-         k "I look closer and notice her prim slender figure and short smooth jet black hair, as if the personification of a Yamato Nadeshiko."
+    k "I notice a prim and proper girl sitting inside seemingly enamored by the book she is reading."
 
-         k "The more I look the more I notice features that just seem to-"
+    k "I look closer and notice her prim slender figure and short smooth jet black hair, as if the personification of a Yamato Nadeshiko."
 
-         k "Hm...? Is.. Is that!?"
+    k "The more I look the more I notice features that just seem to-"
 
-         k "STEEL BALL RUN!!!??"
+    k "Hm...? Is.. Is that!?"
+
+    k "STEEL BALL RUN!!!??"
   
-         jump sunyiroute1
+    que "Hya!?"
 
-         label sunyiroute1:
+    show sunyi surprised blush
+    with fade
 
-             a "Hya!?"
+    que "W-Who??"
 
-             show sunyi surprised blush
-             with fade
+    k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
 
-             a "W-Who??"
+    que "!?"
 
-             k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
+    que "You know it!? It's one of my treasures!"
 
-             a "!?"
+    que "The two main characters are a disgraced former executioner for a European government, and a paraplegic former horse jockey celebrity. There are several themes in the story, the first of which is the western theme demonstrated in the location of the story, 1890’s America. The main method used to run in the race is on horseback and several characters are evocative of the classic image of the American cowboy, straight down to the use of lassos and six-shooters. Another staple mode of transportation of young America is the train used by the wealthy runners of the Steel Ball Run and the President. The background and characters are very detailed, and the stylization of the characters are impressive. The characters are unique within the shonen/seinen genere at large and amongst each other."
 
-             a "You know it!? It's one of my treasures!"
+    s "Ah!"
 
-             a "The two main characters are a disgraced former executioner for a European government, and a paraplegic former horse jockey celebrity. There are several themes in the story, the first of which is the western theme demonstrated in the location of the story, 1890’s America. The main method used to run in the race is on horseback and several characters are evocative of the classic image of the American cowboy, straight down to the use of lassos and six-shooters. Another staple mode of transportation of young America is the train used by the wealthy runners of the Steel Ball Run and the President. The background and characters are very detailed, and the stylization of the characters are impressive. The characters are unique within the shonen/seinen genere at large and amongst each other."
+    que "Sorry..."
 
-             a "Ah!"
+    k "Uhh..."
 
-             a "Sorry..."
+    que "Um, class is starting! Ex- Excuse me!"
 
-             k "Uhh..."
+    hide sunyi surprised blush
 
-             a "Um, class is starting! Ex- Excuse me!"
+    k "Ah, she ran away, before i even got her name."
 
-             hide sunyi surprised blush
+    scene bg classroom
+    with fade
 
-             k "Ah, she ran away"
+    return    
 
-             scene bg classroom
-             with fade
-
-             return    
->>>>>>> 74a5f75a9ded49a1ee7dd02e92ad430550607d3e
 
     # This ends the game.
 
