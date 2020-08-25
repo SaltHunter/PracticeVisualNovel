@@ -153,9 +153,9 @@ label commonroute2:
 
          k "STEEL BALL RUN!!!??"
   
-         jump sunyiroute
+         jump sunyiroute1
 
-         label sunyiroute:
+         label sunyiroute1:
 
              a "Hya!?"
 
@@ -166,7 +166,24 @@ label commonroute2:
 
              k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
 
-             
+             a "!?"
+
+             a "You know it!? It's one of my treasures!"
+
+             a "The two main characters are a disgraced former executioner for a European government, and a paraplegic former horse jockey celebrity. There are several themes in the story, the first of which is the western theme demonstrated in the location of the story, 1890’s America. The main method used to run in the race is on horseback and several characters are evocative of the classic image of the American cowboy, straight down to the use of lassos and six-shooters. Another staple mode of transportation of young America is the train used by the wealthy runners of the Steel Ball Run and the President. The background and characters are very detailed, and the stylization of the characters are impressive. The characters are unique within the shonen/seinen genere at large and amongst each other."
+
+             a "Ah!"
+
+             a "Sorry..."
+
+             k "Uhh..."
+
+             a "Um, class is starting! Ex- Excuse me!"
+
+             K "Ah, she ran away"
+
+             scene bg classroom
+             with fade
 
              return    
 
