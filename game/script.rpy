@@ -499,7 +499,9 @@ label commonroute3:
 
     k "Tch its that girl from this morning."
 
-    show carmen frown
+    show carmen frown:
+        xalign 0.5
+        yalign -0.05
 
     que "Allright You all, in single file, in front of the blackboard."
 
