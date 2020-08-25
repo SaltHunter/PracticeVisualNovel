@@ -276,7 +276,7 @@ label Magic:
 
     k "Yet these hands will hold nothing."
 
-    que "Synapse Linkage, 100/% synchron!"
+    que "Synapse Linkage, 100\% synchron!"
 
     que "Linkage Code QX5ABCD"
 
