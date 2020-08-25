@@ -152,6 +152,7 @@ label commonroute2:
 
     que "Hmph, what a deluding idiot."
 
+<<<<<<< HEAD
     show carmen frown blush:
         xalign 0.5
         yalign -0.05
@@ -374,6 +375,70 @@ label commonroute3:
 
 
 
+
+    scene bg classroom
+    with fade
+
+    k "Looks like I still came too school early today."
+    menu:
+
+        "Should I head to the cafeteria.":
+            
+         jump sunyi_scene1
+
+         label sunyi_scene1: 
+
+         k "I head towards the cafeteria, but on the way I pass by my school's library."
+
+         scene bg library
+         with fade
+
+         k "I notice a prim and proper girl sitting inside seemingly enamored by the book she is reading."
+
+         k "I look closer and notice her prim slender figure and short smooth jet black hair, as if the personification of a Yamato Nadeshiko."
+
+         k "The more I look the more I notice features that just seem to-"
+
+         k "Hm...? Is.. Is that!?"
+
+         k "STEEL BALL RUN!!!??"
+  
+         jump sunyiroute1
+
+         label sunyiroute1:
+
+             a "Hya!?"
+
+             show sunyi surprised blush
+             with fade
+
+             a "W-Who??"
+
+             k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
+
+             a "!?"
+
+             a "You know it!? It's one of my treasures!"
+
+             a "The two main characters are a disgraced former executioner for a European government, and a paraplegic former horse jockey celebrity. There are several themes in the story, the first of which is the western theme demonstrated in the location of the story, 1890’s America. The main method used to run in the race is on horseback and several characters are evocative of the classic image of the American cowboy, straight down to the use of lassos and six-shooters. Another staple mode of transportation of young America is the train used by the wealthy runners of the Steel Ball Run and the President. The background and characters are very detailed, and the stylization of the characters are impressive. The characters are unique within the shonen/seinen genere at large and amongst each other."
+
+             a "Ah!"
+
+             a "Sorry..."
+
+             k "Uhh..."
+
+             a "Um, class is starting! Ex- Excuse me!"
+
+             hide sunyi surprised blush
+
+             k "Ah, she ran away"
+
+             scene bg classroom
+             with fade
+
+             return    
+>>>>>>> 74a5f75a9ded49a1ee7dd02e92ad430550607d3e
 
     # This ends the game.
 
