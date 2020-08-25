@@ -476,7 +476,7 @@ label commonroute3:
 
     que "The two main characters are a disgraced former executioner for a European government, and a paraplegic former horse jockey celebrity. There are several themes in the story, the first of which is the western theme demonstrated in the location of the story, 1890’s America. The main method used to run in the race is on horseback and several characters are evocative of the classic image of the American cowboy, straight down to the use of lassos and six-shooters. Another staple mode of transportation of young America is the train used by the wealthy runners of the Steel Ball Run and the President. The background and characters are very detailed, and the stylization of the characters are impressive. The characters are unique within the shonen/seinen genere at large and amongst each other."
 
-    s "Ah!"
+    que "Ah!"
 
     que "Sorry..."
 
