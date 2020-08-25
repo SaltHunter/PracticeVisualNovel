@@ -11,6 +11,14 @@ define c = Character("Carmen")
 
 define que = Character("???")
 
+define crowd = Character("Crowd")
+
+define h = Character("Hiroto")
+
+define f = Character("Felise")
+
+define az = Character("Azrail?")
+
 
 
 # The game starts here.
@@ -116,15 +124,256 @@ label za_warudo:
 
     k "Just watch. GUNDAM! COME FORTH! LET US CHANGE THE WORLD!"
 
-    "...but nobody came. All I get is a cringing stare from the girl."
+    que "eww...disgusting."
+
+    crowd "psst psst psst"
+
+    "Shit, a crowd's forming. . ."
+
+    crowd "Cringeeee bro!"
+
+    crowd "Major chuunibyo bro"
+
+    "Ouch, thats a harsh remark."
+
+    crowd "Is that what they call chuunibyo? disgusting bro!"
+
+    "I think i need to get out of trouble here instead of causing another ruckus"
 
     return
 
 label commonroute2:
 
+    show carmen frown:
+        xalign 0.5
+        yalign -0.05
+
     que "Yeah, whatever."
 
     que "Hmph, what a deluding idiot."
+
+    show carmen frown blush:
+        xalign 0.5
+        yalign -0.05
+
+    que "We'd better get to class, lest you want your sorry chuuni behind to get done in by the teacher."
+
+    "Tch, i'll get her next time..."
+
+    hide carmen frown
+
+jump routecontinue
+
+label routecontinue:
+
+    show bg classroom
+    with fade
+
+    que "Yo! Kazuo, late as always"
+
+    k "ah, you again, what's your name. . ."
+
+    show hiroto happy
+
+    que "How rude, we've been friends for 5 years and you forgot me?"
+
+    que "Has being late fried your brain cells or somthing? but i guess if i got to tell you."
+
+    h "Its Hiroto, you'd do well to remember that next time we meet, incase you forget it again."
+
+    "This is hiroto, my fellow otaku friend, he always collects figures and models and he is usually one step ahead on me at these type of things."
+
+    k "Like the 959 other times i forgot your name? yeah, you'd do well to remember that i will forget you."
+
+    h "Tch, that's not what im trying to tell you though, have you seen the news? there's a new gundam model coming out this week"
+
+    k "Yeah. . . i bought the pre-orders, and they're coming in by tomorrow."
+
+    h "No fair! you should've notified me when they are open"
+
+    k "Yeah, i kind of did, 3 months ago, but you said you're not buying it."
+
+    "You reap what you sow i guess..."
+
+    h "Tch, Let's just go to the canteen, im getting hungry."
+
+    k "That resolves."
+
+    hide hiroto happy
+
+    show bg hallway
+    with fade
+
+    que "Umph!"
+
+    "*papers scatter*"
+
+    que "AAAH! i have to gather these papers now!"
+
+    k "Maybe i should"
+
+    menu papergirl:
+
+        "Fight":
+            call Fight
+            jump papergirl
+
+        "Magic":
+            jump Magic
+
+        "Item":
+            jump Item
+
+        "Friend":
+            call Friend
+            jump papergirl
+
+label Fight:
+
+    "Ok, let's run a simulation of the fight"
+
+    show bg hallway
+    with fade
+
+    k "ORA!"
+
+    "As the duel between two genders, two individuals, two differing ideologies began, a raging passionate duel!"
+
+    "Two enter the ring, only one leaves"
+
+    que "KYAAAAAH! He's Sexually Harassing Me!"
+
+    "Yeah... forget the duel option."
+
+    return
+
+label Magic:
+
+    show bg hallway
+    with fade
+
+    "Right, let me try casting a spell"
+
+    k "I am the bone of my sword."
+
+    k "Steel is my body, fire is my blood."
+
+    k "I have created over a thousand blades"
+
+    que "Reality be bent"
+
+    k "Unknown to death, not known to life"
+
+    k "I have created over a thousand blades"
+
+    k "Yet these hands will hold nothing."
+
+    que "Synapse Linkage, On!"
+
+    que "Reality break, engage!"
+
+    k "Unlimited! Blade Works!"
+
+    que "Vanishment! This World!"
+
+jump commonroute3
+
+label Item:
+
+    "Hmmm..."
+
+    menu items:
+
+        "Pencil":
+            call pencil
+            jump Item
+
+        "Wallet":
+            call wallet
+            jump Item
+
+        "Student ID Card":
+            call idcard
+            jump items
+
+        "Return":
+            jump papergirl
+
+label pencil:
+    "What is this doing here?"
+
+    "Riight, i need it to do my homework at the cafeteria, no way i can borrow it to her"
+
+    "Besides, i left all of my pencils in class so that's that, i couldn't lend it to her."
+    return
+
+label wallet:
+    "This is my wallet, containing the money i need to buy melonpan, and a iced tea"
+
+    "Man, i want to eat kitsune udon though, the weather's getting hot here."
+
+    "Doubt she needs me to lend her cash, considering im running low myself."
+    return
+
+label idcard: 
+    "This is my id card, nothing new here"
+
+    "It shows my basic information."
+
+    "My name is Kazuo Mizuhara, i am your average teenage boy, aged 17"
+
+    "My house is on the northeast side of tokyo, i currently live in the school dorms with hiroto."
+
+    "I am not married, and am a student to this school."
+
+    "I get home by 9pm latest, unless am doing some schoolwork with a friend"
+
+    "I dont smoke, i dont drink either."
+
+    "I'm in bed by 12pm latest, and i try to get at least 7 hours of sleep every day."
+
+    "After drinking milk and doing my stretches before going to bed i often have no problems sleeping till morning"
+
+    "Just like a baby, i often wake up without fatigue or stress in the morning, only hatred for humankind."
+
+    "I was told i had no issues during the last health inspection"
+
+    "I'm trying to say that i am a person who does not like to meddle with troublesome situations like the girl i met this morning"
+
+    "Which would cause me to lose sleep at night.."
+
+    "Although, if someone were to challenge me to a fight, i would win..."
+
+    "Heh! what am i even doing?!"
+    return
+
+label Friend:
+    k "Hiroto, do something!"
+
+    h "I think you should help her out, apologize to her."
+
+    k "Tch, you're useless."
+    return
+
+
+label commonroute3:
+    show bg battlefield1
+    with fade
+    show felice happy
+
+    que "Fallen Angel, Azrail Deus Ex The Fifth."
+
+    az "State your name! duellist, and we will fight a honorable duel"
+
+    k "I have no name, i'll let my blades do the talking"
+
+    az "Ho! so you're approaching me, instead of running away from me, the angel of death you're approraching me"
+
+    
+
+
+
+
 
     # This ends the game.
 

@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 58: expected statement.
-    xalign 0.5
-            ^
-
-File "game/script.rpy", line 59: expected statement.
-    yalign -0.75
+File "game/script.rpy", line 251: choice menuitem expects a non-empty block.
+    "Pencil":
              ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Aug 20 16:05:41 2020
+Tue Aug 25 11:36:28 2020
