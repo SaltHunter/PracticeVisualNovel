@@ -21,6 +21,8 @@ define az = Character("Azrail?")
 
 define s = Character("Sunyi")
 
+define sc = Character("Student Councill")
+
 
 
 # The game starts here.
@@ -491,6 +493,52 @@ label commonroute3:
     scene bg classroom
     with fade
 
+    k "Urgh, English, as if today wouldn't get more boring. . ."
+
+    sc "Inspection! Hand over your bags nicely and we wouldn't hurt you!"
+
+    k "Tch its that girl from this morning."
+
+    show carmen frown
+
+    que "Allright You all, in single file, in front of the blackboard."
+
+    k "Bold move since you are late, to show to the student councill today"
+
+    que "yuck, it's that guy from this morning."
+
+    scene bg classroom
+    with fade
+
+    "Inspection ended swiftly... with only Hiroto getting his items confiscated."
+
+    h "Damn that carmen, confiscating my Magic: The Gathering Deck, what does she have, Mystic eyes of perception EX?"
+
+    k "Nah, that's probably the name of an enemy stand."
+
+    c "Or maybe if you two idiots would stop bringing illegal items to the school i wouldnt confiscate them."
+
+    c "I know you, Kazuo Mizuhara, the school's number 1 problem child."
+
+    c "And his partner in crime, Hiroto Miyamoto. Do you two have anything to say for yourselves?"
+
+    k "I didnt bring anything to school today, and this is how you talk to me?"
+
+    c "Powerless dogs only bark, but they too grovel at the sight of real power, say i have a track record"
+
+    c "Like the one time you went on a chuuni outburst a few weeks back, i still have a list of your confiscated items"
+
+    c "And i can't wait to spread the info via the PA system"
+
+    k "Tch."
+
+    h "Kazuo, let it off the hook, let her off this time."
+
+    c "I'm glad, your friend seems to have a bit more common sense than you, not that he has any anyway."
+
+    hide carmen frown
+
+    k "Tch, i'll get her next time..."
     return    
 
 
