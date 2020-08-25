@@ -166,6 +166,8 @@ label commonroute2:
 
              k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
 
+             
+
              return    
 
     # This ends the game.
