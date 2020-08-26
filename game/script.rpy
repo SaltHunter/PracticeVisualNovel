@@ -37,7 +37,7 @@ label commonroute:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg room1
     with fade
 
     # This shows a character sprite. A placeholder is used, but you can
@@ -55,11 +55,11 @@ label commonroute:
 
     k "But alas, as my parents have paid my school fees, I have to go to school, do the daily routine"
 
-    scene bg hill
+    scene bg street
     with fade
     
 
-    "As I look up the hill, I feel that it's so high, and so hard to approach, and then,"
+    "As I down the road to school, i feel the distance covered to school will consume too much energy, and then..."
 
     que "*Achoo*"
 
@@ -179,7 +179,9 @@ label routecontinue:
 
     k "ah, you again, what's your name. . ."
 
-    show hiroto happy
+    show hiroto frown:
+        xalign 0.5
+        yalign -0.05
 
     que "How rude, we've been friends for 5 years and you forgot me?"
 
@@ -205,10 +207,18 @@ label routecontinue:
 
     k "That resolves."
 
-    hide hiroto happy
+    hide hiroto frown
 
     show bg hallway
     with fade
+
+    "As we walk down the hallway to the cafeteria, suddenly a pink-haired girl, walking with a unsteady stack of papers approaches us"
+
+    "And then..."
+
+    show felise blush closeeyed:
+        xalign 0.5
+        yalign -0.05
 
     que "Umph!"
 
@@ -217,6 +227,8 @@ label routecontinue:
     que "AAAH! i have to gather these papers now!"
 
     k "Maybe i should"
+
+    hide felise blush closeeyed
 
     menu papergirl:
 
@@ -240,14 +252,31 @@ label Fight:
 
     show bg hallway
     with fade
+    show felise blush closeeyed:
+        xalign 0.5
+        yalign -0.05
 
-    k "ORA!"
+    k "Face my secret sword technique, which i've trained for ten years."
+
+    k "One strike, one strike to end it all."
+
+    k "Tsubame Gaeshi!"
 
     "As the duel between two genders, two individuals, two differing ideologies began, a raging passionate duel!"
 
     "Two enter the ring, only one leaves"
 
+    show felise blush closeeyed2:
+        xalign 0.5
+        yalign -0.05
+
     que "KYAAAAAH! He's Sexually Harassing Me!"
+
+    hide felise blush closeeyed2
+
+    crowd "eww gross"
+
+    crowd "Now we have a molester in the school? and it's that chuuni dude? major molester bro!"
 
     "Yeah... forget the duel option."
 
@@ -257,6 +286,9 @@ label Magic:
 
     show bg hallway
     with fade
+    show felise blush closeeyed:
+        xalign 0.5
+        yalign -0.05
 
     "Right, let me try casting a spell"
 
@@ -266,11 +298,19 @@ label Magic:
 
     k "I have created over a thousand blades"
 
+    show felise happy:
+        xalign 0.5
+        yalign -0.05
+
     que "Hooh, so you too are a wizard"
 
     que "Very well then!"
 
     que "Reality be bent"
+
+    hide felise happy
+
+    "As both (supposed) mages continue their chant, the true battle begins."
 
     k "Unknown to death, not known to life"
 
@@ -362,9 +402,15 @@ label idcard:
     return
 
 label Friend:
+    show hiroto frown:
+        xalign 0.5
+        yalign -0.05
+
     k "Hiroto, do something!"
 
     h "I think you should help her out, apologize to her."
+
+    hide hiroto frown
 
     k "Tch, you're useless."
     return
@@ -372,7 +418,9 @@ label Friend:
 
 label commonroute3:
     show bg battlefield1
-    show felice happy
+    show felise cat happy:
+        xalign 0.5
+        yalign -0.05
 
     que "Fallen Angel, Azrail Deus Ex The Fifth."
 
@@ -384,20 +432,29 @@ label commonroute3:
 
     k "Talk less ,fight more!"
 
+    hide felise cat happy
+
     "*CLANG!*"
 
-    "As 2 rulers clashed with her umbrella, she extends it, prooving to be somewhat of a  large lance"
+    "As 2 rulers clashed with her umbrella, she extends it, prooving to be somewhat to have the image of a large lance"
+
+    show felise cat happy:
+        xalign 0.5
+        yalign -0.05
 
     k "What's your class, lancer?"
 
     az "I have no obligation to tell you! Hyah!"
 
+    hide felise cat happy
+
     "After a series of blows, both of them were readying their ultimate attacks untill"
 
     show bg hallway
     with fade
-    hide felice happy
-    show hiroto happy
+    show hiroto happy:
+        xalign 0.5
+        yalign -0.05
 
     h "I think it's about time we went back to class, we have a math test you know"
 
@@ -413,23 +470,33 @@ label commonroute3:
 
     crowd "Hey i've seen this guy before, he's the disgusting one from this morning!"
 
-    show felice blush
+    show felise blush:
+        xalign 0.5
+        yalign -0.05
 
     k "Tch! we shall continue our battle later!"
 
     az "Fair, and by the way"
 
+    show felise happy:
+        xalign 0.5
+        yalign -0.05
+
     f "My human name is Felise, Felise Arrowheart from Class 3-A, so you know where to find me for our next duel"
 
     k "Do remember i settle my scores"
 
-    show felice happy
+    show felise smile closeeyed:
+        xalign 0.5
+        yalign -0.05
 
     f "I'm counting on it! and farewell!"
 
     f "MUAHAHAHAHAHAHA!"
 
-    hide felice happy
+    hide felise smile closeeyed
+
+    k "Interesting character. . ."
 
     h "Let's get to class, we have a math test to do."
 
@@ -440,14 +507,28 @@ label commonroute3:
 
     k "Man That math test was hard, Hiroto, i'm going to the canteen, need anything?"
 
+    show hiroto happy:
+        xalign 0.5
+        yalign -0.05
+
     h "I'll get the usual"
 
-    k "Ocha and melonpan, gotcha, ill be back."
+    k "Ocha and melonpan, gotcha, anything else you need?"
+
+    h "I've heard rumours of a major cute girl who's always in the library, they say she has thick tighs!"
+
+    h "And a really busty physique."
+
+    hide hiroto happy
+
+    h "Yeah...i'd pass on that last one..."
 
     scene bg hallway
     with fade
 
     k "Hmm, the library looks interesting, maybe i'll stop by it, i still have time to kill after all."
+
+    k "Not that i'm falling for such rumors of a girl with a nice physique."
    
 
     scene bg library
@@ -465,12 +546,18 @@ label commonroute3:
   
     que "Hya!?"
 
-    show sunyi surprised blush
-    with fade
-
+    show sunyi suprised:
+        xalign 0.5
+        yalign -0.05
     que "W-Who??"
 
     k "Oh, sorry for surprising you. I was just interested in the book you were reading..." 
+
+    "uwaah...she must be the girl from hiroto's rumours."
+
+    show sunyi suprised blush:
+        xalign 0.5
+        yalign -0.05
 
     que "!?"
 
@@ -484,11 +571,15 @@ label commonroute3:
 
     k "Uhh..."
 
+    "So she's also a jojo fan?"
+
     que "Um, class is starting! Ex- Excuse me!"
 
     hide sunyi surprised blush
 
     k "Ah, she ran away, before i even got her name."
+
+    "Interesting character, big boobs, glasses and thick tighs, man she must be at least A+ tier, i'd go back and report to hiroto."
 
     scene bg classroom
     with fade
@@ -520,9 +611,17 @@ label commonroute3:
 
     c "Or maybe if you two idiots would stop bringing illegal items to the school i wouldnt confiscate them."
 
+    show carmen shout:
+        xalign 0.5
+        yalign -0.05
+
     c "I know you, Kazuo Mizuhara, the school's number 1 problem child."
 
     c "And his partner in crime, Hiroto Miyamoto. Do you two have anything to say for yourselves?"
+
+    show carmen frown:
+        xalign 0.5
+        yalign -0.05
 
     k "I didnt bring anything to school today, and this is how you talk to me?"
 

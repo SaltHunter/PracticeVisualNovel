@@ -2,13 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 503: expected statement.
+File "game/script.rpy", line 528: expected statement.
     xalign 0.5
             ^
 
-File "game/script.rpy", line 504: expected statement.
+File "game/script.rpy", line 529: expected statement.
+    yalign -0.05
+             ^
+
+File "game/script.rpy", line 536: expected statement.
+    xalign 0.5
+            ^
+
+File "game/script.rpy", line 537: expected statement.
     yalign -0.05
              ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Aug 25 14:48:32 2020
+Wed Aug 26 11:38:25 2020
