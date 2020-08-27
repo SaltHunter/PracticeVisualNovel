@@ -640,6 +640,8 @@ label commonroute3:
     hide carmen frown
 
     k "Tch, i'll get her next time..."
+
+    "Lorem ipsum"
     return    
 
 
