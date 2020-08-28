@@ -646,11 +646,55 @@ label commonroute3:
 
     "*Homeroom Ends*"
 
+    show hiroto happy:
+        xalign 0.5
+        yalign -0.05
+
     h "Kazuo, let's hit the dorms!"
 
     k "Denied, i have to go shopping for the weekly supplies, our fridge is running out of supplies, and i don't think i can ask you for supplies anyways."
 
+    show hiroto blush:
+        xalign 0.5
+        yalign -0.05
+
+    h "eeeeh, but you always ask me for help whenever we buy groceries?"
+
+    k "I never did, all you do is spend all the money on MTG cards and shounen jump manga, remember the first day we lived together?"
+
+    h "Tch, that was because the new core set was out, you never give me another chance."
+
+    k "Case and point, guilty as charged."
+
+    show hiroto blush open:
+        xalign 0.5
+        yalign -0.05
+
+    h "Objection! i would like to raise my case."
+
+    show hiroto blush:
+        xalign 0.5
+        yalign -0.05
     
+    k "Overrule, you have been charged guilty on a few accounts."
+
+    k "Like the one time i fell sick, and you had to buy supplies, which resulted in you buying convenience store food"
+
+    k "And forgetting to microwave it, so i had to go to the cafeteria and use their microwave."
+
+    k "And let's not forget that one time, you blew all our supply money on the arcade, and forced us both to eat rice and soy sauce for the whole week!"
+
+    show hiroto blush open:
+        xalign 0.5
+        yalign -0.05
+
+    h "Ok! i get it, man, you never let me join you on a shopping trip."
+
+    k "Maybe later, more importantly don't you have some homework to be tending to?"
+
+    h "Shit! the math homework that's due tommorow! i'll go do it now!"
+
+
     return    
 
 
