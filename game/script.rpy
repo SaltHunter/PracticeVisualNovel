@@ -748,22 +748,71 @@ label commonroute3:
     k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had 
     to relocate."
 
-    scene bg street 
+    scene bg street
+
+    "As i walk down the street, i notice a newly built shopping district along the way."
+
+    "And can't help but notice that quite a bit of students from our school go there to hang out"
+
+    "And after hearing a few rumors at school, about the mall in said shoppin district"
+
+    "I decide to go in"
+
+    scene bg mall 
+    with fade
+
+    crowd "*Gossip Gossip*"
+
+    crowd "Chatter Chatter"
+
+    "So this is the rumored mall, it has the standard store lineup"
+
+    "With a maid cafe, and an arcade, with the retro games i've been dying to play since i moved here."
+
+    k "Hmmmm"
+
+    menu mallchoice:
+
+        "Have fun at the arcade":
+            jump arcade
+        
+        "Go check out the grocery store":
+            jump groceries
+
+        "Relax at the maid cafe":
+            jump maidcafe
+
+label arcade:
+    scene bg mall
     with fade
 
     "Lorem ipsum"
 
-    "The quick brown fox jumps over the lazy dog"
+    jump commonroute4
 
-    "I want abigail summer! god damn!"
+label groceries:
+    scene bg mall
+    with fade
 
-    "why didnt i get summer abby"
+    "Lorem ipsum"
 
-    "TEST TEXT!"
+    jump commonroute4
 
-    "Vibe check!"
+label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
+    scene bg mall
+    with fade
 
-    "KONO DIO DA!"
+    "Lorem ipsum"
+
+    jump commonroute4
+
+label commonroute4:
+    scene bg room
+    with fade
+
+    "Lorem ipsum"
+
+
 
     return    
 
