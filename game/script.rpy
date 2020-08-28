@@ -707,6 +707,10 @@ label commonroute3:
 
     "Lorem ipsum"
 
+    "The quick brown fox jumps over the lazy dog"
+
+    "I want abigail summer! god damn!"
+
 
 
 

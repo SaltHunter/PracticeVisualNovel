@@ -464,4 +464,21 @@ Total time until interface ready: 1.20299983025s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.003000 seconds.
-- Frame drawn at 0.007000 
+- Frame drawn at 0.007000 seconds.
+- Frame drawn at 0.013000 seconds.
+- Frame drawn at 0.021000 seconds.
+- 0.021000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1920, 1001) drawable=(1920, 1001)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
