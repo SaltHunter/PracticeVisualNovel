@@ -260,7 +260,7 @@ label Fight:
 
     k "One strike, one strike to end it all."
 
-    k "Tsubame Gaeshi!"
+    k "Tsubame Gaeshi! (Swallow Reversal)"
 
     "As the duel between two genders, two individuals, two differing ideologies began, a raging passionate duel!"
 
@@ -641,7 +641,16 @@ label commonroute3:
 
     k "Tch, i'll get her next time..."
 
-    "Lorem ipsum"
+    scene bg classroom
+    with fade
+
+    "*Homeroom Ends*"
+
+    h "Kazuo, let's hit the dorms!"
+
+    k "Denied, i have to go shopping for the weekly supplies, our fridge is running out of supplies, and i don't think i can ask you for supplies anyways."
+
+    
     return    
 
 
