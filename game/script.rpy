@@ -676,7 +676,7 @@ label commonroute3:
         xalign 0.5
         yalign -0.05
     
-    k "Overrule, you have been charged guilty on a few accounts."
+    k "Overruled, you have been charged guilty on a few accounts."
 
     k "Like the one time i fell sick, and you had to buy supplies, which resulted in you buying convenience store food"
 
@@ -693,6 +693,21 @@ label commonroute3:
     k "Maybe later, more importantly don't you have some homework to be tending to?"
 
     h "Shit! the math homework that's due tommorow! i'll go do it now!"
+
+    hide hiroto blush open
+
+    k "Well, there he goes."
+
+    k "Time to go to the shopping district before it gets late."
+
+    k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had to relocate."
+
+    scene bg street 
+    with fade
+
+    "Lorem ipsum"
+
+
 
 
     return    
