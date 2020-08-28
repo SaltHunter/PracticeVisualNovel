@@ -693,9 +693,8 @@ label commonroute3:
     k "Denied, I have to go shopping for the weekly supplies, our fridge is running out of supplies, 
     and I don't think I can ask you for supplies anyways."
 
+    h "Eeeeh! but you always ask me to do the shopping for you"
     
-<<<<<<< Updated upstream
-=======
     k "Overruled, you have been charged guilty on a few accounts."
 
     k "Like the one time i fell sick, and you had to buy supplies, which resulted in you buying convenience store food"
@@ -742,7 +741,6 @@ label commonroute3:
 
 
 
->>>>>>> Stashed changes
     return    
 
 
