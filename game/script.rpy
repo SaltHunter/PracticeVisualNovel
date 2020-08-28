@@ -721,21 +721,23 @@ label commonroute3:
     
     k "Overruled, you have been charged guilty on a few accounts."
 
-    k "Like the one time i fell sick, and you had to buy supplies, which resulted in you buying convenience store food"
+    k "Like the one time I fell sick, and you had to buy supplies, which resulted in 
+    you buying convenience store food"
 
-    k "And forgetting to microwave it, so i had to go to the cafeteria and use their microwave."
+    k "And forgetting to microwave it, so I had to go to the cafeteria and use their microwave."
 
-    k "And let's not forget that one time, you blew all our supply money on the arcade, and forced us both to eat rice and soy sauce for the whole week!"
+    k "And let's not forget that one time, you blew all our supply money on the arcade, 
+    and forced us both to eat rice and soy sauce for the whole week!"
 
     show hiroto blush open:
         xalign 0.5
         yalign -0.05
 
-    h "Ok! i get it, man, you never let me join you on a shopping trip."
+    h "Ok! I get it, man, you never let me join you on a shopping trip."
 
     k "Maybe later, more importantly don't you have some homework to be tending to?"
 
-    h "Shit! the math homework that's due tommorow! i'll go do it now!"
+    h "Shit! the math homework that's due tommorow! I'll go do it now!"
 
     hide hiroto blush open
 
@@ -743,7 +745,8 @@ label commonroute3:
 
     k "Time to go to the shopping district before it gets late."
 
-    k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had to relocate."
+    k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had 
+    to relocate."
 
     scene bg street 
     with fade
@@ -760,8 +763,7 @@ label commonroute3:
 
     "Vibe check!"
 
-
-
+    "KONO DIO DA!"
 
     return    
 
