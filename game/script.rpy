@@ -688,12 +688,36 @@ label commonroute3:
 
     "*Homeroom Ends*"
 
+    show hiroto happy:
+        xalign 0.5
+        yalign -0.05
+
     h "Kazuo, let's hit the dorms!"
 
     k "Denied, I have to go shopping for the weekly supplies, our fridge is running out of supplies, 
     and I don't think I can ask you for supplies anyways."
 
-    h "Eeeeh! but you always ask me to do the shopping for you"
+    show hiroto blush:
+        xalign 0.5
+        yalign -0.05
+
+    h "eeeeh, but you always ask me for help whenever we buy groceries?"
+
+    k "I never did, all you do is spend all the money on MTG cards and shounen jump manga, remember the first day we lived together?"
+
+    h "Tch, that was because the new core set was out, you never give me another chance."
+
+    k "Case and point, guilty as charged."
+
+    show hiroto blush open:
+        xalign 0.5
+        yalign -0.05
+
+    h "Objection! i would like to raise my case."
+
+    show hiroto blush:
+        xalign 0.5
+        yalign -0.05
     
     k "Overruled, you have been charged guilty on a few accounts."
 
@@ -735,8 +759,6 @@ label commonroute3:
     "TEST TEXT!"
 
     "Vibe check!"
-
-    "KONO DIO DA!"
 
 
 
