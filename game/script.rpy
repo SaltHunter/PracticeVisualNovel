@@ -754,6 +754,12 @@ label commonroute3:
 
     "I want abigail summer! god damn!"
 
+    "why didnt i get summer abby"
+
+    "TEST TEXT!"
+
+    "Vibe check!"
+
 
 
 
