@@ -783,6 +783,7 @@ label commonroute3:
             jump maidcafe
 
 label arcade:
+    $ menu_flag1 = True
     scene bg mall
     with fade
 
@@ -791,6 +792,7 @@ label arcade:
     jump commonroute4
 
 label groceries:
+    $ menu_flag2 = True
     scene bg mall
     with fade
 
@@ -799,6 +801,7 @@ label groceries:
     jump commonroute4
 
 label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
+    $ menu_flag3 = True
     scene bg mall
     with fade
 
@@ -807,10 +810,31 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     jump commonroute4
 
 label commonroute4:
-    scene bg room
+    scene bg mall
     with fade
 
-    "Lorem ipsum"
+    "Eventually, i finished my groceries"
+
+    scene bg room
+    with fade
+    if menu_flag1:
+        k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
+        f "tch..."
+
+    else:
+        k "..."
+
+    if menu_flag2:
+        "So she does have a dere side, instead of constantly being tsun..."
+
+    else:
+        ". . ."
+
+    if menu_flag3:
+        k "Ey, i saw you at the maid cafe recently"
+
+    else:
+        k ". . ."
 
 
 
