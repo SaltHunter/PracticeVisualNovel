@@ -805,7 +805,7 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     scene bg mall
     with fade
 
-    "Lorem ipsum"
+    k "K, guess i have time to spare, and cash to blow, imma check the maid cafe"
 
     jump commonroute4
 
