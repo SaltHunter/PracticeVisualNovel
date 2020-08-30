@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define mg = Character("Manager")
+
 define k = Character("Kazuo")
 
 define e = Character("Eilene")
@@ -771,6 +773,8 @@ label commonroute3:
 
     k "Hmmmm"
 
+    #TODO Make Multiple flag triggers possible.
+
     menu mallchoice:
 
         "Have fun at the arcade":
@@ -783,7 +787,7 @@ label commonroute3:
             jump maidcafe
 
 label arcade:
-    $ menu_flag1 = True
+    # $ menu_flag1 = True
     scene bg mall
     with fade
 
@@ -792,7 +796,7 @@ label arcade:
     jump commonroute4
 
 label groceries:
-    $ menu_flag2 = True
+    # $ menu_flag2 = True
     scene bg mall
     with fade
 
@@ -801,16 +805,127 @@ label groceries:
     jump commonroute4
 
 label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
-    $ menu_flag3 = True
+    # $ menu_flag3 = True
     scene bg mall
     with fade
 
     k "K, guess i have time to spare, and cash to blow, imma check the maid cafe"
 
+    scene bg mall
+    with fade
+
+    "So this is the rumoured cafe, Cafe MorumoTea, or Cafe MT for short."
+
+    "Heard it was popular amongst the otaku in our school for having beautiful maids whom are energetic and serve with love."
+
+    "It Doesn't hurt to check it out"
+
+    scene bg cafe
+    with fade
+    "*Door Opening Sfx*"
+
+    show sunyi maid1:
+        xalign 0.5
+
+    que "Welcome to our..."
+
+    show sunyi maid2:
+        xalign 0.5
+
+    que "eep!"
+
+    "*Glass dropping sfx*"
+
+    show sunyi maid3:
+        xalign 0.5
+
+    "As i stood there dumbfounded at the display that this maid was making, i suddenly realize"
+
+    "Isnt she. . ."
+
+    "That girl from the library?!"
+
+    show sunyi maid2:
+        xalign 0.5
+
+    que "W-W-WhaleCum to our..."
+
+    hide sunyi maid2
+
+    que "What's with all the commotion?!"
+
+    show mg sigh:
+        xalign 1.0
+    show sunyi maid3:
+        xalign 0
+        yalign -0.05
+    que "Care to explain what's going on?"
+
+    que "Oh, a guest?"
+
+    que "You, serve the other guests, i'll take care of this customer."
+
+    hide sunyi maid3
+    show mg happy:
+        xalign 0.5
+
+    que "Pardon me for my employee's mistake, my name is Henry Oswald, heir to the Oswald family"
+
+    mg "I am the manager, and head barista of this establishment, do call me Manager, or Boss if you may."
+
+    "Maybe i'll skip out on the last one."
+
+    mg "Oh pardon me, do you mind if i led you to my favorite seat in this cafe? i would like to have a talk with you."
+
+    k "Sure, i do not mind."
+
+    hide mg happy
+
     scene bg cafe
     with fade
 
-    "The quick brown fox jumps over the lazy dog"
+    show mg happy:
+        xalign 0.5
+
+    mg "My Apologies for the sudden talk, after all the commotion my employee has caused you."
+
+    mg "However, i would like to address the case since you seem to be in the same school as our star maid, Sunyi."
+
+    "So that's her name, i'd best keep that in mind."
+
+    mg "I know that part-time jobs are illegal in the school where you come from, i would like to ask you that you keep her job a secret."
+
+    k "And what's in it for me if i do?"
+
+    show mg sigh:
+        xalign 0.5
+    mg "Look here, i'm requesting you as a former alumni of the school, that you keep her working life a secret."
+
+    mg "I built this establishment as a working enviroment to those who have circumstances, and need to work here, like her."
+
+    mg "Most of the maids here are part-timers, like her, and they also come from your school."
+
+    k "And why are you asking me of this request?"
+
+    show mg happy:
+        xalign 0.5
+    
+    mg "Because she was blushing, that only probably means she knows you."
+
+    "I do not know how this manager reasons with his employees, but sure, you do you i guess."
+
+    mg "I mean, look at her, now, working here full of passion."
+
+    hide mg happy
+    
+    scene bg smile glasses:
+        yalign -0.03
+
+    "As i averted my gaze, i saw a beautiful, and elegant woman"
+
+
+
+
 
     jump commonroute4
 
@@ -822,24 +937,28 @@ label commonroute4:
 
     scene bg room
     with fade
-    if menu_flag1:
-        k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
-        f "tch..."
+    
+    #TODO Fix Flag Script, they would appear at diffrent times supposedly.    
+    
+    #if menu_flag1:
+     #   k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
+      #  f "tch..."
 
-    else:
-        k "..."
+    #else:
+     #   k "..."
 
-    if menu_flag2:
-        "So she does have a dere side, instead of constantly being tsun..."
+    #if menu_flag2:
+     #   "So she does have a dere side, instead of constantly being tsun..."
 
-    else:
-        ". . ."
+    #else:
+     #   ". . ."
 
-    if menu_flag3:
-        k "Ey, i saw you at the maid cafe recently"
+    #if menu_flag3:
+     #   k "Ey, i saw you at the maid cafe recently"
 
-    else:
-        k ". . ."
+    
+    #else:
+     #   k ". . ."
 
 
 
