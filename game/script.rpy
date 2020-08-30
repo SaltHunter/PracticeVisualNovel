@@ -807,6 +807,11 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
 
     k "K, guess i have time to spare, and cash to blow, imma check the maid cafe"
 
+    scene bg cafe
+    with fade
+
+    "The quick brown fox jumps over the lazy dog"
+
     jump commonroute4
 
 label commonroute4:
