@@ -25,6 +25,14 @@ define s = Character("Sunyi")
 
 define sc = Character("Student Council")
 
+define g1 = Character("Guy 1")
+
+define g2 = Character("Guy 2")
+
+define gi1 = Character("Girl 1")
+
+define gi2 = Character("Girl 2")
+
 
 
 # The game starts here.
@@ -922,6 +930,21 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
         yalign -0.03
 
     "As i averted my gaze, i saw a beautiful, and elegant woman."
+
+    "Working as a maid, earnestly, elegantly, and passionately"
+
+    s "Welcome back Master, may i take your order?"
+
+    g1 "I would like to order the morumotea special please."
+
+    s "One, morumo special! coming right up!"
+
+    g2 "This omelet rice dosen't taste delicious, can you do the usual"
+
+    scene bg frown glasses:
+        yalign -0.03
+
+    s "Lorem ipsum"
 
 
 
