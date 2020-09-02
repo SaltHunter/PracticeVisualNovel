@@ -19,11 +19,11 @@ define h = Character("Hiroto")
 
 define f = Character("Felise")
 
-define az = Character("Azrail?")
+define az = Character("Azrael?")
 
 define s = Character("Sunyi")
 
-define sc = Character("Student Councill")
+define sc = Character("Student Council")
 
 
 
@@ -61,7 +61,7 @@ label commonroute:
     with fade
     
 
-    "As I down the road to school, i feel the distance covered to school will consume too much energy, 
+    "As I go down the road to school, i feel the distance covered to school will consume too much energy, 
     and then..."
 
     que "*Achoo*"
@@ -88,7 +88,7 @@ label commonroute:
     thinking that she is some princess atop a lofty throne"
 
     "Who does she think she is? some kind of god? Hmph! such self-centered and egoistic ideals are what 
-    sets off wars, crumble nations and..."
+    sets off wars, crumbling nations and..."
 
     
     show carmen shout:
@@ -737,7 +737,7 @@ label commonroute3:
 
     h "Ok! I get it, man, you never let me join you on a shopping trip."
 
-    k "Maybe later, more importantly don't you have some homework to be tending to?"
+    k "Maybe later, more importantly don't you have homework to tend to?"
 
     h "Shit! the math homework that's due tommorow! I'll go do it now!"
 
@@ -747,18 +747,18 @@ label commonroute3:
 
     k "Time to go to the shopping district before it gets late."
 
-    k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had 
+    k "Or before hiroto starts cooking and almost burn down the dorm, like that one time we had 
     to relocate."
 
     scene bg street
 
     "As i walk down the street, i notice a newly built shopping district along the way."
 
-    "And can't help but notice that quite a bit of students from our school go there to hang out"
+    "And can't help but notice that quite a bit of students from our school go there to hang out."
 
-    "And after hearing a few rumors at school, about the mall in said shoppin district"
+    "And after hearing a few rumors at school, about the mall in said shopping district."
 
-    "I decide to go in"
+    "I decide to go in."
 
     scene bg mall 
     with fade
@@ -767,7 +767,7 @@ label commonroute3:
 
     crowd "Chatter Chatter"
 
-    "So this is the rumored mall, it has the standard store lineup"
+    "So this is the rumored mall, it has the standard store lineup."
 
     "With a maid cafe, and an arcade, with the retro games i've been dying to play since i moved here."
 
@@ -809,7 +809,7 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     scene bg mall
     with fade
 
-    k "K, guess i have time to spare, and cash to blow, imma check the maid cafe"
+    k "K, guess I have time to spare, and cash to blow, imma check the maid cafe"
 
     scene bg mall
     with fade
@@ -818,7 +818,7 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
 
     "Heard it was popular amongst the otaku in our school for having beautiful maids whom are energetic and serve with love."
 
-    "It Doesn't hurt to check it out"
+    "It doesn't hurt to check it out."
 
     scene bg cafe
     with fade
@@ -869,7 +869,7 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     show mg happy:
         xalign 0.5
 
-    que "Pardon me for my employee's mistake, my name is Henry Oswald, heir to the Oswald family"
+    que "Pardon me for my employee's mistake, my name is Henry Oswald, heir to the Oswald family."
 
     mg "I am the manager, and head barista of this establishment, do call me Manager, or Boss if you may."
 
@@ -921,7 +921,7 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     scene bg smile glasses:
         yalign -0.03
 
-    "As i averted my gaze, i saw a beautiful, and elegant woman"
+    "As i averted my gaze, i saw a beautiful, and elegant woman."
 
 
 
