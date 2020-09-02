@@ -939,12 +939,16 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
 
     s "One, morumo special! coming right up!"
 
-    g2 "This omelet rice dosen't taste delicious, can you do the usual"
+    g2 "I'd like some alone time with you after work, if you get what i mean"
 
     scene bg frown glasses:
         yalign -0.03
 
-    s "Lorem ipsum"
+    s "I'm terribly sorry but i am only a maid, with that you may need to ask my manager."
+
+    k "Isn't she in deep trouble, shouldn't we go help her?"
+
+    mg "Nah, give her some time."
 
 
 
