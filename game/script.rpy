@@ -444,7 +444,7 @@ label commonroute3:
         xalign 0.5
         yalign -0.05
 
-    que "Fallen Angel, Azrail Deus Ex The Fifth."
+    que "Fallen Angel, Azrael Deus Ex The Fifth."
 
     az "State your name, duelist, and we will fight an honorable duel!"
 
