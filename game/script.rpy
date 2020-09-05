@@ -944,11 +944,11 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
     scene bg frown glasses:
         yalign -0.03
 
-    s "I'm terribly sorry but i am only a maid, with that you may need to ask my manager."
+    s "I'm terribly sorry but this is currently within work hours, can we discuss this at a more appropriate time?"
 
     k "Isn't she in deep trouble, shouldn't we go help her?"
 
-    mg "Nah, give her some time."
+    mg "Nah, give her some time, she'll handle em just fine."
 
 
 
