@@ -305,7 +305,7 @@ label Magic:
 
     show bg hallway
     with fade
-    play music "ubw.mp3" fadeout 1
+    play music "!ubw.mp3" fadeout 1
     show felise blush closeeyed:
         xalign 0.5
         yalign -0.05
