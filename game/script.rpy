@@ -305,6 +305,7 @@ label Magic:
 
     show bg hallway
     with fade
+    #TODO have the bgm fade out when the bell rings
     play music "!ubw.mp3" fadeout 1
     show felise blush closeeyed:
         xalign 0.5
@@ -338,7 +339,7 @@ label Magic:
 
     k "Yet these hands will hold nothing."
 
-    que "Synapse Linkage, 100% synchron!"
+    que "Synapse Linkage, 100/% synchron!"
 
     que "Linkage Code QX5ABCD."
 
@@ -349,8 +350,6 @@ label Magic:
     k "Unlimited! Blade Works!"
 
     que "Vanishment! This World!"
-
-    stop music fadeout 1
 
 jump commonroute3
 
@@ -480,6 +479,8 @@ label commonroute3:
 
     show bg hallway
     with fade
+
+    #TODO Music should end here
 
     "*ding* *dong*"
 
@@ -953,9 +954,43 @@ label maidcafe: #this will be the test for sunyi's route bg scene(since free ass
 
     mg "Nah, give her some time, she'll handle em just fine."
 
+    scene black
+    with fade
 
+    "The scene which unfolded was nothing short of what the manager told me."
 
+    "She just talked to the guy as if it was a part of her everyday routine, even though clearly the guy had ulterior motives in mind"
 
+    "Nothing short of the word elegant, crossed my mind, as there she stood, like a flower in a garden of weeds, doing her duty."
+
+    scene bg cafe
+
+    "Looks like i got worried for nothing."
+
+    show mg happy:
+        xalign 0.5
+
+    mg "Hey, don't look so down, It's not like she dosent have her fair share of these kinds of situations."
+
+    "Did the worry show on my face?"
+
+    mg "Well, it's only natural to show concern for your schoolmate for undergoing these kinds of events, here a tea, it's on me today."
+
+    "*gulps*"
+
+    "It's suprisingly delicious"
+
+    k "Not bad."
+
+    mg "Glad you like it, it's the morumotea special."
+
+    scene bg mall
+
+    "After relaxing and talking to the manager, i continued on to buy my groceries"
+
+    "And a few packs from the new cardstore"
+
+    k "hmmm...still have enough money for a few cards along the way"
 
     jump commonroute4
 
