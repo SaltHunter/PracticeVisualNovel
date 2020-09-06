@@ -305,7 +305,6 @@ label Magic:
 
     show bg hallway
     with fade
-    #TODO have the bgm fade out when the bell rings
     play music "!ubw.mp3" fadeout 1
     show felise blush closeeyed:
         xalign 0.5
@@ -480,7 +479,7 @@ label commonroute3:
     show bg hallway
     with fade
 
-    #TODO Music should end here
+    stop music fadeout 1
 
     "*ding* *dong*"
 
