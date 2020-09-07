@@ -804,7 +804,11 @@ label arcade:
     scene bg mall
     with fade
 
-    "TEST~!"
+    "As i walked up the second floor, i saw the rumoured arcade, it wasnt very big, or very small"
+
+    "It was filled to the brim with iconic titles, especially fighter games like tekken or street fighter."
+
+    "And it has a section at the back of the arcade for Crane games, and all those games which typically would scam you for shit." 
 
     jump commonroute4
 
