@@ -804,7 +804,7 @@ label arcade:
     scene bg mall
     with fade
 
-    "Lorem ipsum"
+    "TEST~!"
 
     jump commonroute4
 
