@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define mg = Character("Manager")
+
 define k = Character("Kazuo")
 
 define e = Character("Eilene")
@@ -17,11 +19,19 @@ define h = Character("Hiroto")
 
 define f = Character("Felise")
 
-define az = Character("Azrail?")
+define az = Character("Azrael?")
 
 define s = Character("Sunyi")
 
-define sc = Character("Student Councill")
+define sc = Character("Student Council")
+
+define g1 = Character("Guy 1")
+
+define g2 = Character("Guy 2")
+
+define gi1 = Character("Girl 1")
+
+define gi2 = Character("Girl 2")
 
 
 
@@ -59,7 +69,7 @@ label commonroute:
     with fade
     
 
-    "As I down the road to school, i feel the distance covered to school will consume too much energy, 
+    "As I go down the road to school, I feel the distance covered to school will consume too much energy, 
     and then..."
 
     que "*Achoo*"
@@ -80,20 +90,20 @@ label commonroute:
         xalign 0.5
         yalign -0.05
 
-    que "U...Um...I, just woke up late! that's all! why are you staring at me like that?! Pervert!"
+    que "U...Um...I, just woke up late! that's all! Why are you staring at me like that?! Pervert!"
 
-    "This, is the type of female i don't like, the school's beauty, A self-proclaimed 'Ice queen', 
-    thinking that she is some princess atop a lofty throne"
+    "This, is the type of female I don't like, the school's beauty, a self-proclaimed 'Ice Queen', 
+    thinking that she is some princess atop a lofty throne."
 
-    "Who does she think she is? some kind of god? Hmph! such self-centered and egoistic ideals are what 
-    sets off wars, crumble nations and..."
+    "Who does she think she is? Some kind of god? Hmph! Such self-centered and egoistic ideals are what 
+    sets off wars, crumbling nations and..."
 
     
     show carmen shout:
         xalign 0.5
         yalign -0.05
     
-    que "WHO ARE YOU CALLING SELF CENTRED?!"
+    que "WHO ARE YOU CALLING SELF CENTERED?!"
 
     "*WHAM!* *WHAM!* *WHAM!*"
 
@@ -125,8 +135,6 @@ label commonroute:
             #block of code to run
             jump commonroute2
 
-# This label and the text under for the label is actually unnecessary, but I put it here to demonstrate 
-# what call does. -io
 label za_warudo:
 
     k "Just watch. GUNDAM! COME FORTH! LET US CHANGE THE WORLD!"
@@ -195,7 +203,7 @@ label routecontinue:
     "This is Hiroto, my fellow otaku friend, he always collects figures and models and he is usually 
     one step ahead on me at these type of things."
 
-    k "Like the 959 other times I forgot your name? yeah, you'd do well to remember that I will 
+    k "Like the 959 other times I forgot your name? Yeah, you'd do well to remember that I will 
     forget you."
 
     h "Tch, that's not what I'm trying to tell you though." 
@@ -204,7 +212,7 @@ label routecontinue:
 
     k "Yeah, I bought the pre-orders, and they're coming in by tomorrow."
 
-    h "No fair! you should've notified me when they are open!"
+    h "No fair! You should've notified me when they are open!"
 
     k "Yeah, I kind of did, 3 months ago, but you said you're not buying it."
 
@@ -220,7 +228,7 @@ label routecontinue:
     with fade
 
     "As we walk down the hallway to the cafeteria, a pink-haired girl carrying an unsteady stack 
-    of papers walked to us"
+    of papers walked to us."
 
     "And then..."
 
@@ -271,7 +279,7 @@ label Fight:
     k "Tsubame Gaeshi! (Swallow Reversal)"
 
     "The duel between two genders, two individuals, two differing ideologies began, a raging 
-    passionate duel!"
+    passionate duel...!"
 
     "Two enter the ring, but only one leaves."
 
@@ -285,9 +293,9 @@ label Fight:
 
     crowd "Eww, gross!"
 
-    crowd "Now we have a molester in the school? aAd it's that chuuni dude? Major molester bro!"
+    crowd "Now we have a molester in the school? And it's that chuuni dude? Major molester bro!"
 
-    "Yeah... forget the duel option."
+    "Yeah... Forget the duel option."
 
     return
 
@@ -295,6 +303,7 @@ label Magic:
 
     show bg hallway
     with fade
+    play music "!ubw.mp3" fadeout 1
     show felise blush closeeyed:
         xalign 0.5
         yalign -0.05
@@ -375,7 +384,7 @@ label wallet:
 
     "Man, I want to eat kitsune udon though, the weather's getting hot here."
 
-    "Doubt she needs me to lend her cash, considering im running low myself."
+    "Doubt she needs me to lend her cash, considering I'm running low myself."
     return
 
 label idcard: 
@@ -396,7 +405,7 @@ label idcard:
     "I'm in bed by 12 am latest, and I try to get at least 7 hours of sleep every day."
 
     "After drinking milk and doing my stretches before going to bed, I often have no problems sleeping 
-    till morning"
+    till morning."
 
     "Just like a baby, I often wake up without fatigue or stress in the morning, only hatred for 
     humankind."
@@ -434,7 +443,7 @@ label commonroute3:
         xalign 0.5
         yalign -0.05
 
-    que "Fallen Angel, Azrail Deus Ex The Fifth."
+    que "Fallen Angel, Azrael Deus Ex The Fifth."
 
     az "State your name, duelist, and we will fight an honorable duel!"
 
@@ -467,6 +476,8 @@ label commonroute3:
 
     show bg hallway
     with fade
+
+    stop music fadeout 1
 
     "*ding* *dong*"
 
@@ -606,18 +617,21 @@ label commonroute3:
 
     k "Uhh..."
 
-    "So she's also a jojo fan?"
+    "So she's also a JoJo fan?"
 
     "(Ding dong)"
 
-    que "Um, class is starting! Ex- Excuse me!"
+    que "Um, class is starting! Ex-excuse me!"
 
     hide sunyi surprised blush
 
     k "Ah, she ran away, before I even got her name."
 
-    "Interesting character, big boobs, glasses and thick tighs, man she must be at least A+ tier, 
-    I'd go back and report to hiroto."
+    "Interesting character, big boobs, glasses and thicc thighs..." 
+    
+    "Man, she must be at least A+ tier!" 
+    
+    "I'd better go back and report to hiroto."
 
     scene bg classroom
     with fade
@@ -643,7 +657,7 @@ label commonroute3:
 
     "Inspection ended swiftly... with only Hiroto getting his items confiscated."
 
-    h "Damn that carmen, confiscating my Magic: The Gathering Deck, what does she have, 
+    h "Damn that Carmen, confiscating my Magic: The Gathering Deck, what does she have, 
     Mystic eyes of perception EX?"
 
     k "Nah, that's probably the work of an enemy stand."
@@ -666,12 +680,12 @@ label commonroute3:
     k "I didn't bring anything to school today, and this is how you talk to me?"
 
     c "Powerless dogs only bark, but they too grovel at the sight of real power, 
-    say I have a track record"
+    say I have a track record."
 
     c "Like the one time you went on a chuuni outburst a few weeks back, 
     I still have a list of your confiscated items."
 
-    c "And i can't wait to spread the info via the PA system"
+    c "And I can't wait to spread the info via the PA system."
 
     k "Tch."
 
@@ -701,9 +715,10 @@ label commonroute3:
         xalign 0.5
         yalign -0.05
 
-    h "eeeeh, but you always ask me for help whenever we buy groceries?"
+    h "Eeeeh, but don't you always ask me for help whenever we buy groceries?"
 
-    k "I never did, all you do is spend all the money on MTG cards and shounen jump manga, remember the first day we lived together?"
+    k "I never did, all you do is spend all the money on MTG cards and shounen jump manga, 
+    remember the first day we lived together?"
 
     h "Tch, that was because the new core set was out, you never give me another chance."
 
@@ -713,7 +728,7 @@ label commonroute3:
         xalign 0.5
         yalign -0.05
 
-    h "Objection! i would like to raise my case."
+    h "Objection! I would like to raise my case."
 
     show hiroto blush:
         xalign 0.5
@@ -722,9 +737,9 @@ label commonroute3:
     k "Overruled, you have been charged guilty on a few accounts."
 
     k "Like the one time I fell sick, and you had to buy supplies, which resulted in 
-    you buying convenience store food"
+    you buying convenience store food..."
 
-    k "And forgetting to microwave it, so I had to go to the cafeteria and use their microwave."
+    k "And forgetting to microwave it, so I had to go to the cafeteria and use their microwave..."
 
     k "And let's not forget that one time, you blew all our supply money on the arcade, 
     and forced us both to eat rice and soy sauce for the whole week!"
@@ -735,9 +750,9 @@ label commonroute3:
 
     h "Ok! I get it, man, you never let me join you on a shopping trip."
 
-    k "Maybe later, more importantly don't you have some homework to be tending to?"
+    k "Maybe later, more importantly don't you have homework to tend to?"
 
-    h "Shit! the math homework that's due tommorow! I'll go do it now!"
+    h "Shit! The math homework that's due tommorow! I'll go do it now!"
 
     hide hiroto blush open
 
@@ -745,25 +760,284 @@ label commonroute3:
 
     k "Time to go to the shopping district before it gets late."
 
-    k "Or before hiroto starts cooking and almost burnt down the dorm, like that one time we had 
+    k "Or before hiroto starts cooking and almost burn down the dorm, like that one time we had 
     to relocate."
 
-    scene bg street 
+    scene bg street
+
+    "As I walk down the street, I notice a newly built shopping district along the way."
+
+    "And can't help but notice that quite a bit of students from our school go there to hang out."
+
+    "And after hearing a few rumors at school, about the mall in said shopping district."
+
+    "I decide to go in."
+
+    scene bg mall 
+    with fade
+
+    crowd "*Gossip Gossip*"
+
+    crowd "Chatter Chatter"
+
+    "So this is the rumored mall, it has the standard store lineup."
+
+    "With a maid cafe, and an arcade, with the retro games I've been dying to play since I moved here."
+
+    k "Hmmmm"
+
+    #TODO: Make Multiple flag triggers possible.
+
+    menu mallchoice:
+
+        "Have fun at the arcade":
+            jump arcade
+        
+        "Go check out the grocery store":
+            jump groceries
+
+        "Relax at the maid cafe":
+            jump maidcafe
+
+label arcade:
+    # $ menu_flag1 = True
+    scene bg mall
     with fade
 
     "Lorem ipsum"
 
-    "The quick brown fox jumps over the lazy dog"
+    jump commonroute4
 
-    "I want abigail summer! god damn!"
+label groceries:
+    # $ menu_flag2 = True
+    scene bg mall
+    with fade
 
-    "why didnt i get summer abby"
+    "Lorem ipsum"
 
-    "TEST TEXT!"
+    jump commonroute4
 
-    "Vibe check!"
+label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
+    # $ menu_flag3 = True
+    scene bg mall
+    with fade
 
-    "KONO DIO DA!"
+    k "K, I guess since I have time to spare, and cash to blow, imma check the maid cafe"
+
+    scene bg mall
+    with fade
+
+    "So this is the rumoured cafe, Cafe MorumoTea, or Cafe MT for short."
+
+    "Heard it was popular amongst the otaku in our school for having beautiful maids whom are 
+    energetic and serve with love."
+
+    "It doesn't hurt to check it out."
+
+    scene bg cafe
+    with fade
+    "*Door Opening*"
+
+    show sunyi maid1:
+        xalign 0.5
+
+    que "Welcome to our..."
+
+    show sunyi maid2:
+        xalign 0.5
+
+    que "Eep!"
+
+    "*Glass dropping sfx*"
+
+    show sunyi maid3:
+        xalign 0.5
+
+    "As I stood there dumbfounded at the display that this maid was making, I suddenly realize"
+
+    "Isn't she. . ."
+
+    "That girl from the library?!"
+
+    show sunyi maid2:
+        xalign 0.5
+
+    que "W-W-WhaleCum to our..."
+
+    hide sunyi maid2
+
+    que "What's with all the commotion?!"
+
+    show mg sigh:
+        xalign 1.0
+    show sunyi maid3:
+        xalign 0
+        yalign -0.05
+    que "Care to explain what's going on?"
+
+    que "Oh, a guest?"
+
+    que "You, serve the other guests, I'll take care of this customer."
+
+    hide sunyi maid3
+    show mg happy:
+        xalign 0.5
+
+    que "Pardon me for my employee's mistake, my name is Henry Oswald, heir to the Oswald family."
+
+    mg "I am the manager, and head barista of this establishment, do call me Manager, 
+    or Boss if you may."
+
+    "Maybe I'll skip out on the last one."
+
+    mg "Oh pardon me, do you mind if I led you to my favorite seat in this cafe? 
+    I would like to have a talk with you."
+
+    k "Sure, I do not mind."
+
+    hide mg happy
+
+    scene bg cafe
+    with fade
+
+    show mg happy:
+        xalign 0.5
+
+    mg "My Apologies for the sudden talk, after all the commotion my employee has caused you."
+
+    mg "However, I would like to address the case since you seem to be in the same school 
+    as our star maid, Sunyi."
+
+    "So that's her name, I'd best keep that in mind."
+
+    mg "I know that part-time jobs are illegal in the school where you come from."
+
+    mg "Therefore, I would like to ask you that you keep her job a secret."
+
+    k "And what's in it for me if I do?"
+
+    show mg sigh:
+        xalign 0.5
+    mg "I'm requesting you as a former alumni of the school, that you keep her working life a secret."
+
+    mg "I built this establishment as a working enviroment to those who have circumstances, 
+    and need to work here, like her."
+
+    mg "Most of the maids here are part-timers, like her, and they also come from your school."
+
+    k "And why are you asking me of this request?"
+
+    show mg happy:
+        xalign 0.5
+    
+    mg "Because she was blushing, that only probably means she knows you."
+
+    "I do not know how this manager reasons with his employees, but sure, you do you I guess."
+
+    mg "I mean, look at her, now, working here full of passion."
+
+    hide mg happy
+    
+    scene bg smile glasses:
+        yalign -0.03
+
+    "As I averted my gaze, I saw a beautiful, and elegant woman, 
+    working as a maid, earnestly, elegantly, and passionately."
+
+    s "Welcome back Master, may I take your order?"
+
+    g1 "I would like to order the MorumoTea Special please."
+
+    s "One Morumo Special, coming right up!"
+
+    g2 "I'd like some alone time with you after work, if you get what I mean."
+
+    scene bg frown glasses:
+        yalign -0.03
+
+    s "I'm terribly sorry but this is currently within work hours, 
+    can we discuss this at a more appropriate time?"
+
+    k "Isn't she in deep trouble, shouldn't we go help her?"
+
+    mg "Nah, give her some time, she'll handle em just fine."
+
+    scene black
+    with fade
+
+    "The scene which unfolded was nothing short of what the manager told me."
+
+    "She just talked to the guy as if it was a part of her everyday routine, 
+    even though clearly the guy had ulterior motives in mind."
+
+    "Nothing short of the word elegant, crossed my mind, as there she stood, 
+    like a flower in a garden of weeds, doing her duty."
+
+    scene bg cafe
+
+    "Looks like I got worried for nothing."
+
+    show mg happy:
+        xalign 0.5
+
+    mg "Hey, don't look so down, It's not like she doesn't have her fair share of these 
+    kinds of situations."
+
+    "Did the worry show on my face?"
+
+    mg "Well, it's only natural to show concern for your schoolmate for undergoing these 
+    kinds of events, so here, have a tea, it's on me today."
+
+    "I gulped down the tea the manager gave me."
+
+    "It's suprisingly delicious."
+
+    k "Not bad."
+
+    mg "Glad you like it, it's the MorumoTea Special."
+
+    scene bg mall
+
+    "After relaxing and talking to the manager, I continued on to buy my groceries,"
+
+    "And a few packs from the new card store."
+
+    k "Hmmm...still have enough money for a few cards along the way"
+
+    jump commonroute4
+
+label commonroute4:
+    scene bg mall
+    with fade
+
+    "Eventually, I finished my groceries."
+
+    scene bg room
+    with fade
+    
+    #TODO Fix Flag Script, they would appear at diffrent times supposedly.    
+    
+    #if menu_flag1:
+     #   k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
+      #  f "tch..."
+
+    #else:
+     #   k "..."
+
+    #if menu_flag2:
+     #   "So she does have a dere side, instead of constantly being tsun..."
+
+    #else:
+     #   ". . ."
+
+    #if menu_flag3:
+     #   k "Ey, i saw you at the maid cafe recently"
+
+    
+    #else:
+     #   k ". . ."
+
+
 
     return    
 
