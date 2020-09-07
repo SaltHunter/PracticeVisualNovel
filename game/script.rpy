@@ -336,7 +336,7 @@ label Magic:
 
     k "Yet these hands will hold nothing."
 
-    que "Synapse Linkage, 100% synchron!"
+    que "Synapse Linkage, 100/% synchron!"
 
     que "Linkage Code QX5ABCD."
 
@@ -809,6 +809,11 @@ label arcade:
     "It was filled to the brim with iconic titles, especially fighter games like tekken or street fighter."
 
     "And it has a section at the back of the arcade for Crane games, and all those games which typically would scam you for shit." 
+
+    scene bg arcade
+    with fade
+
+    "Lorem ipsum sit amet"
 
     jump commonroute4
 
