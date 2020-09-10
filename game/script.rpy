@@ -336,7 +336,7 @@ label Magic:
 
     k "Yet these hands will hold nothing."
 
-    que "Synapse Linkage, 100/% synchron!"
+    que "Synapse Linkage, 100\% synchron!"
 
     que "Linkage Code QX5ABCD."
 
@@ -813,7 +813,76 @@ label arcade:
     scene bg arcade
     with fade
 
+    "After playing a myriad of retro games, namingly fighting games which i only could emulate"
+
+    "I enter the oh-so dreaded Crane game section, as it was the last section i haven't explored"
+
+    "And there i saw, as clear as day, the personification of the idiot."
+
+    show felise happy:
+        xalign 0.5
+        yalign -0.05
+
+    f "COME ON! JUST A BIT MORE!"
+
+    "That, indeed, is the face of an idiot, not knowing the risks that such a game bring with it."
+
+    f "JUST A BIT MORE! AND ILL GET THAT SABER FIGURE!"
+
+    "Truly an idiot will scream out like that in public...."
+
+    "And to my sad demise, that idiot, is none other than Felise Arrowheart, somehow."
+
+    f "Hey! you! help me with this!"
+
+    "Shit, she is approaching me, instead of continuing playing her game she is approaching me."
+
+    hide felise happy
+
+    "How do i escape her..."
+
+    menu arcadechoice:
+
+        "Fight":
+            jump fight2
+
+        "Bag":
+            jump bag
+
+        "Intereact"
+
+        "Flee":
+            call Flee
+            jump arcadechoice
+
+    label fight2:
+
+    "Pulling the nearest weapon i have, which is a pen in my pocket, i proceeded to take a defensive stance and"
+
+    label bag: #TODO make it into a menu
+
     "Lorem ipsum sit amet"
+
+
+    label Flee:
+
+        scene bg arcade
+
+        k "Take this! a technique which my family has honed for generations!"
+
+        k "{b} N I G E R U N D A Y O! {/b}"
+
+        "Kazuo tried to flee . . . "
+
+        "But it failed!"
+
+        k "Fuck, i guess i wouldn't get away with it a second time..."
+
+        return
+
+
+
+
 
     jump commonroute4
 
