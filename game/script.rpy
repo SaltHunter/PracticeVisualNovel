@@ -92,7 +92,7 @@ label commonroute:
 
     que "U...Um...I, just woke up late! that's all! Why are you staring at me like that?! Pervert!"
 
-    "This, is the type of female I don't like, the school's beauty, a self-proclaimed 'Ice Queen', 
+    "This, is the type of female I absolutely despise, the school's beauty, a self-proclaimed 'Ice Queen', 
     thinking that she is some princess atop a lofty throne."
 
     "Who does she think she is? Some kind of god? Hmph! Such self-centered and egoistic ideals are what 
