@@ -320,7 +320,7 @@ label Magic:
         xalign 0.5
         yalign -0.05
 
-    que "Hooh, so you too, are a wizard..."
+    que "Hooh, so you too, are a Archwizard..."
 
     que "Very well then!"
 
@@ -844,24 +844,99 @@ label arcade:
     menu arcadechoice:
 
         "Fight":
-            jump fight2
+            call fight2
+            jump arcadechoice
 
         "Bag":
             jump bag
 
-        "Intereact"
+        "Intereact":
+            jump Intereact
 
         "Flee":
             call Flee
             jump arcadechoice
 
+    label Intereact:
+    
+    "Lorem ipsum sit amet."
+
+
     label fight2:
 
-    "Pulling the nearest weapon i have, which is a pen in my pocket, i proceeded to take a defensive stance and"
+    "Pulling the nearest weapon i have, which is a pen in my pocket, i proceeded to take a defensive stance and..."
+
+    "*BZZT*"
+
+    "As i fade away from conciousness, i saw the object, the startled girl held in her hand"
+
+    "A Stun-gun, truly impressive."
+
+    scene black
+
+    "As i lose conciousness, my life flashes before my eyes"
+
+    "Memories of the man i once was."
+
+    scene bg youdied
+
+    "{b}Bad end 1? Death By StunGun?{/b}"
+
+    "WHAT THE F*CK?! IS THIS SOME S*ITTY D*RK SO*LS P*RODY?"
+
+    jump arcadechoice
+
+    return
 
     label bag: #TODO make it into a menu
+    
+    k "Hmmmm...."
 
-    "Lorem ipsum sit amet"
+    menu inventory2:
+        "Coin pouch":
+            call pouch
+            jump bag
+
+        "Student ID Card":
+            call idcard2
+            jump bag
+
+        "Shopping List":
+            call shoppinglist
+            jump bag
+
+        "Return":
+            jump arcadechoice
+    
+    label pouch:
+
+        "This is my coin pouch, where i store the coins i use to play at the arcade"
+
+        "I am running out of arcade coins, i might need to refill."
+
+        return
+
+    label idcard2:
+
+        "This is my student ID card, this is the way i get student price discounts on the supermarket."
+
+        "However, Mom's voice echoed inside my head."
+
+        "Son, now is not the time and place to use that..."
+
+        return
+
+    label shoppinglist:
+
+        "This is the shopping list, let's see now."
+
+        "I need curry making ingredients, extra beef, chicken, and basic ingredients"
+
+        "Razer naga, Rog Strix Gaming monitor, Nvidia Geforce RTX 3080..."
+
+        "That damned hiroto, i'll give him a beating for putting his PC needs into my shopping list again."
+
+        return
 
 
     label Flee:
