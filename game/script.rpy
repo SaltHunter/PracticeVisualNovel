@@ -863,7 +863,28 @@ label arcade:
 
     label Intereact:
     
-    "Lorem ipsum sit amet."
+    k "You need something?"
+
+    f "No shit sherlock!, i've been trying to win this saber figure for 3 hours, and now i'm out of coins, get it for me!"
+
+    "Truly a crane-game addict, does her spending know no limits."
+
+    k "*Sighs* I'll give it one try."
+
+    "As i slot the coin into the machine, i directed the crane hand, and positioned it to the place where the hands would 
+    slot into the little holes on the box surrounding the figure, and then"
+
+    "*GA-CHANK*"
+
+    "The figure drops down the hole, and even i was suprised that i got it."
+
+    f "Holy shit! If i had known you're this good i would've told you to handle all the cranegames for me"
+
+    "And i just got into trouble, yet again."
+
+    k "Yeah, i'll help you, next time."
+
+    "And i left the arcade, towards the grocery store, in hopes to never let her anywhere near my wallet. ever."
 
     jump commonroute4
 
