@@ -33,6 +33,10 @@ define gi1 = Character("Girl 1")
 
 define gi2 = Character("Girl 2")
 
+default menu_flag1 = False
+default menu_flag2 = False
+default menu_flag3 = False
+
 
 
 # The game starts here.
@@ -800,7 +804,7 @@ label commonroute3:
             jump maidcafe
 
 label arcade:
-    # $ menu_flag1 = True
+    $ menu_flag1 = True
     scene bg mall
     with fade
 
@@ -860,6 +864,8 @@ label arcade:
     label Intereact:
     
     "Lorem ipsum sit amet."
+
+    jump commonroute4
 
 
     label fight2:
@@ -962,7 +968,7 @@ label arcade:
     jump commonroute4
 
 label groceries:
-    # $ menu_flag2 = True
+    $ menu_flag2 = True
     scene bg mall
     with fade
 
@@ -971,7 +977,7 @@ label groceries:
     jump commonroute4
 
 label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
-    # $ menu_flag3 = True
+    $ menu_flag3 = True
     scene bg mall
     with fade
 
@@ -1170,25 +1176,27 @@ label commonroute4:
     
     #TODO Fix Flag Script, they would appear at diffrent times supposedly.    
     
-    #if menu_flag1:
-     #   k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
-      #  f "tch..."
+    if menu_flag1:
+        k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
+        f "tch..."
 
-    #else:
-     #   k "..."
+    else:
+        k "..."
 
-    #if menu_flag2:
-     #   "So she does have a dere side, instead of constantly being tsun..."
+    if menu_flag2:
+        "So she does have a dere side, instead of constantly being tsun..."
 
-    #else:
-     #   ". . ."
+    else:
+        ". . ."
 
-    #if menu_flag3:
-     #   k "Ey, i saw you at the maid cafe recently"
+    if menu_flag3:
+        k "Ey, i saw you at the maid cafe recently"
 
     
-    #else:
-     #   k ". . ."
+    else:
+        k ". . ."
+
+        "VIBE CHECK!"
 
 
 

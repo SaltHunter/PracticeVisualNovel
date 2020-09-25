@@ -2,21 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 861: Menu does not contain any choices.
-    menu intereactmenu:
-                       ^
+File "game/script.rpy", line 36: expected statement.
+    menu_flag1 = False
+               ^
 
-File "game/script.rpy", line 864: expected statement.
-    "Friendly":
-              ^
+File "game/script.rpy", line 37: expected statement.
+    menu_flag2 = False
+               ^
 
-File "game/script.rpy", line 867: expected statement.
-    "Fight":
-           ^
-
-File "game/script.rpy", line 870: expected ':' not found.
-    label Friendly
-                  ^
+File "game/script.rpy", line 38: expected statement.
+    menu_flag3 = False
+               ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Sep 22 17:02:56 2020
+Fri Sep 25 11:12:51 2020
