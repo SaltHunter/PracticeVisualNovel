@@ -846,6 +846,7 @@ label arcade:
     "How do i escape her..."
 
     menu arcadechoice:
+        #scene bg arcade
 
         "Fight":
             call fight2
@@ -1217,7 +1218,7 @@ label commonroute4:
     else:
         k ". . ."
 
-        "VIBE CHECK!"
+        "fuckyou"
 
 
 
