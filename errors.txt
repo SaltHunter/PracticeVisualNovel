@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 36: expected statement.
-    menu_flag1 = False
-               ^
-
-File "game/script.rpy", line 37: expected statement.
-    menu_flag2 = False
-               ^
-
-File "game/script.rpy", line 38: expected statement.
-    menu_flag3 = False
-               ^
+File "game/script.rpy", line 849: expected menuitem
+    scene bg arcade
+    ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Sep 25 11:12:51 2020
+Fri Jun 18 23:37:04 2021

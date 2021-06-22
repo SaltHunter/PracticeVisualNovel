@@ -33,15 +33,16 @@ define gi1 = Character("Girl 1")
 
 define gi2 = Character("Girl 2")
 
-default menu_flag1 = False
-default menu_flag2 = False
-default menu_flag3 = False
+
 
 
 
 # The game starts here.
 
 label start:
+    $points_1 = 10
+    $points_2 = 10
+    $points_3 = 10
 
     jump commonroute
 
@@ -795,16 +796,21 @@ label commonroute3:
     menu mallchoice:
 
         "Have fun at the arcade":
+            $points_1 += 10
             jump arcade
+            
         
         "Go check out the grocery store":
+            $points_2 += 10
             jump groceries
+           
 
         "Relax at the maid cafe":
+            $points_3 += 10
             jump maidcafe
+            
 
 label arcade:
-    $ menu_flag1 = True
     scene bg mall
     with fade
 
@@ -990,7 +996,6 @@ label arcade:
     jump commonroute4
 
 label groceries:
-    $ menu_flag2 = True
     scene bg mall
     with fade
 
@@ -999,7 +1004,6 @@ label groceries:
     jump commonroute4
 
 label maidcafe: #this will be the test for sunyi's route bg scene(since free assets have a maid bg.)
-    $ menu_flag3 = True
     scene bg mall
     with fade
 
@@ -1198,20 +1202,14 @@ label commonroute4:
     
     #TODO Fix Flag Script, they would appear at diffrent times supposedly.    
     
-    if menu_flag1:
+    if points_1 == 10:
         k "Hooh, don't come crying to me when you need extra aracade money like yesterday"
         f "tch..."
 
-    else:
-        k "..."
-
-    if menu_flag2:
+    elif points_2 == 10:
         "So she does have a dere side, instead of constantly being tsun..."
 
-    else:
-        ". . ."
-
-    if menu_flag3:
+    elif points_3 += 10:
         k "Ey, i saw you at the maid cafe recently"
 
     
